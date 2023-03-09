@@ -1,0 +1,27 @@
+@import '../../styles/varStyle.scss';
+
+
+.body__info{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: $negro-Fatradis;
+    align-items: center;
+    .container__info{
+        max-width: 300px;
+        text-align: center;
+        .container__item{
+            background-color: $negro-Fatradis;
+            h2{
+                color: $color-primario;
+
+            }
+            img{
+                width: 150px;
+                // height: 150px;
+            }
+            p{
+                color: $color-primario;
+            }
+        }
+    }
+}

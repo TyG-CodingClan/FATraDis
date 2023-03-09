@@ -1,16 +1,17 @@
-import { NavBar, Information, News, Footer, Example } from "./components"
-import './App.css'
+// import { Route, Routes } from 'react-router-dom'
+import { Home } from './pages/Home'
+import './styles/App.scss'
 
 
 function App() {
   return (
-    <>
-      < NavBar />
-      < Example />
-      < Information />
-      < News />
-      < Footer />
-    </>
+    <div className="app">
+      < Home />
+
+      {/* <Routes>
+        <Route path='/' element={ <Home/> } />
+      </Routes> */}
+    </div>
   )
 }
 

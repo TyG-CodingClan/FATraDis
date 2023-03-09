@@ -1,0 +1,24 @@
+@import '../../styles/varStyle.scss';
+
+.nav__navbar {
+    padding: 3px;
+    background: linear-gradient( to right, $azul-Fatradis, $celeste-Fatradis );
+    .container__my__navbar{  
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        .my__navbar {
+            margin: 0px 32px 0px 16px;
+            .logo__navbar {
+                width: 25px;
+            }
+        }
+        
+        
+    } 
+}
+.nav-item{
+    .nav-link{
+        color: $color-primario;
+    }
+}

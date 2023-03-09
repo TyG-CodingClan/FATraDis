@@ -1,3 +1,4 @@
+import './navbar.scss'
 
 export const NavLinks = ({ link, path }) => {
 

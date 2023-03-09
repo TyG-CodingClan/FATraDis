@@ -1,0 +1,53 @@
+@import '../../styles/varStyle.scss';
+
+.container__main{
+    background: linear-gradient( to right, $azul-Fatradis, $celeste-Fatradis );
+    display: flex;
+    height: 500px;
+    position: relative;
+    padding-top: 16px;
+    .img__main{
+        height: 350px;
+        background-color: transparent;
+    }
+    .container__title{        
+        .title__main{
+            color: $color-primario; 
+            margin-bottom: 32px;
+            margin-top: 25px;
+        }
+        .parrafo__main{
+            color: $color-primario; 
+            font-size: 16px;
+            max-width: 550px;
+            }
+        .btn__main{
+            padding: $espaciado-estandar $espaciado-doble ;
+            border-radius: 5px;
+            border: orange solid;
+            background-color: transparent;
+            .btn__link__main{
+                text-decoration: none;
+                color: $color-primario;
+            }
+        }
+    }
+}
+.container__main::before{
+    content: '';
+     position: absolute;
+     width: 0;
+     height: 0;
+     bottom: 0;
+     border-left: 0px solid transparent;
+     border-top: 300px solid transparent;
+     border-right: 1200px solid $color-primario;
+     border-bottom: 10px solid $color-primario;
+}
+.container__grafico{
+    display: flex;
+    justify-content: end;
+    background-color: $color-primario;   
+    padding-bottom: 32px ;
+    
+}
