@@ -1,9 +1,11 @@
+import { Link } from 'react-router-dom'
 import './mainPage.scss'
 
 const textP = `Federacion Argentina de Transportistas de Personas con Discapacidad 
               Aqui podras encontrar toda la informacion relacionada a las Asociaciones 
               de Transportistas de toda la Argentina, realizar consultas, y registrarte 
               como socio si todavia no lo hiciste!`
+
 
 export const MainPage = () => {
   return (
@@ -15,9 +17,8 @@ export const MainPage = () => {
           <p className='parrafo__main'>
             {textP}
           </p>
-          <button className='btn__main'>
-            <a className='btn__link__main' href="#">Asociarme</a>
-          </button>
+          <br />
+          <Link to='contacto' className='link__asociarme'>Asociarme</Link>
         </div> 
       </div>
       <div className='container__grafico'>

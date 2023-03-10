@@ -1,0 +1,13 @@
+@import '../../styles/varStyle.scss';
+
+
+body{
+    background-color: $color-primario;
+    .container__nosotros{
+        margin: auto;
+        max-width: 720px;
+    }
+    h1{
+        margin-top: 50px;
+    }
+}

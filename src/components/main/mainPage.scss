@@ -11,6 +11,7 @@
         background-color: transparent;
     }
     .container__title{        
+        z-index: 5;
         .title__main{
             color: $color-primario; 
             margin-bottom: 32px;
@@ -20,16 +21,14 @@
             color: $color-primario; 
             font-size: 16px;
             max-width: 550px;
-            }
-        .btn__main{
+        }
+        
+        .link__asociarme{
+            text-decoration: none;
             padding: $espaciado-estandar $espaciado-doble ;
+            color: $color-primario;
             border-radius: 5px;
             border: orange solid;
-            background-color: transparent;
-            .btn__link__main{
-                text-decoration: none;
-                color: $color-primario;
-            }
         }
     }
 }

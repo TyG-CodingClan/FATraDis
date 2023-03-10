@@ -5,10 +5,10 @@ export const NavBar = () => {
 
   const items = [
    {id:1, name: 'Home', path: '/'},
-   {id:2, name: 'Nostros', path: '/Nosotros'},
-   {id:3, name: 'Contacto', path: '/Contacto'},
-   {id:4, name: 'Servicios', path: '/Servicios'},
-   {id:5, name: 'La Provincia', path: '/Provincia'},
+   {id:2, name: 'Nostros', path: '/nosotros'},
+   {id:3, name: 'Contacto', path: '/contacto'},
+   {id:4, name: 'Servicios', path: '/servicios'},
+   {id:5, name: 'La Provincia', path: '/provincia'},
 
   ]
 
